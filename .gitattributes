@@ -1,0 +1,4 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/Taha/Documents/Work/Github/valorant/csgo/players.csv filter=lfs diff=lfs merge=lfs -text
+~/Documents/Work/Github/valorant/csgo/players.csv filter=lfs diff=lfs merge=lfs -text
+players.csv filter=lfs diff=lfs merge=lfs -text
