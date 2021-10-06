@@ -1,7 +1,7 @@
 # Professional CS:GO Analysis
 
 ## Background
-This repo contains multiple jupyter notebooks with analysis of different dataframes of data taken from competitive CS:GO matches over the course of 4 years (Apr 2016-Mar 2020).
+This repo contains multiple jupyter notebooks with analysis of datasets taken from competitive CS:GO matches over the course of 4 years (Apr 2016-Mar 2020).
 
 The data was scraped from hltv.org 
 
@@ -18,12 +18,14 @@ The most common way to play a proffesional match is to play a best-of-3 (BO3) se
 
 Each player has statistics for how they performed in that map, a few examples: their amount of kills, deaths, average damage per round (ADR), and percentage of rounds in which the player either had a kill, assist, survived or was traded (KAST%). These can be used to assess what a player is good at, although it is certainly not enough to only look at statistics to see a player's impact in the map. 
 
-If you are interested in learning more about the game and its intricacies I suggest checking out https://www.reddit.com/r/LearnCSGO/ 
+If you are interested in learning more about the game and its intricacies I suggest checking out: 
+>https://www.reddit.com/r/LearnCSGO/ 
 
 ## Data
 
 The data is taken and scraped from hltv.org, a competitive CS:GO hub.
 We are working with 3 .csv files that split different aspects of competitive CS:GO matches:
-- picks.csv: Each team's map pick/ban before a match is played, which other columns that can be used to merge the datasets together (e.g. event_id, match_id)
-- players.csv: Every player's statistics for each map played in the match. Other information like opponent and country of origin is in the dataset as well.
-- results.csv: The results for every map played in the timeframe with accompanying information like round wins based on ct/t sides and which team started on what side.
+- `picks.csv`: Each team's map pick/ban before a match is played, which other columns that can be used to merge the datasets together (e.g. event_id, match_id)
+- `players.csv`: Every player's statistics for each map played in the match. Other information like opponent and country of origin is in the dataset as well.
+- `results.csv`: The results for every map played in the timeframe with accompanying information like round wins based on ct/t sides and which team started on what side.
+
