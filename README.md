@@ -3,8 +3,6 @@
 ## Background
 This repo contains multiple jupyter notebooks with analysis of datasets taken from competitive CS:GO matches over the course of 4 years (Apr 2016-Mar 2020).
 
-The data was scraped from hltv.org 
-
 All the analysis and modelling is written with Python using NumPy, Pandas, Matplotlib, Seaborn, Sci-kit Learn, TensorFLow, and Statsmodels. 
 
 ## Domain Knowledge
