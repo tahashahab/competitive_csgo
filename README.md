@@ -27,3 +27,8 @@ We are working with 3 .csv files that split different aspects of competitive CS:
 - `players.csv`: Every player's statistics for each map played in the match. Other information like opponent and country of origin is in the dataset as well.
 - `results.csv`: The results for every map played in the timeframe with accompanying information like round wins based on ct/t sides and which team started on what side.
 
+## Notebooks
+
+- `csgo_picks.ipynb`: Some visualizations and analysis of team's map picks/bans throughout the dataset.
+- `csgo_players.ipynb`: Cleaned up the data, performed feature engineering, and visualized the spread of the player statistics.  
+- `csgo_results.ipynb`: Some data wrangling and analysis of map winrates based on side, as well as a few classification models attempting to predict map outcomes based on a variety of features.
