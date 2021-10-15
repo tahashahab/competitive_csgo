@@ -1,5 +1,7 @@
 # Professional CS:GO Analysis
 
+<img width="800" alt="Screen Shot 2021-10-15 at 1 36 04 PM" src="https://user-images.githubusercontent.com/14843458/137529574-48d5308e-e0b7-4afc-818e-32c05875939e.png">
+
 ## Background
 This repo contains multiple jupyter notebooks with analysis of datasets taken from competitive CS:GO matches over the course of 4 years (Apr 2016-Mar 2020).
 
